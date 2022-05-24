@@ -21,3 +21,10 @@ hr {
     border-width: 5px;
     width: 5%;
 }
+/* styling heading elements */
+h1 {
+    color: #66bfbf;
+}
+h3 {
+    color: #66bfbf;
+}
