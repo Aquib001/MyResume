@@ -1,10 +1,11 @@
-/*       circular images using class */
+/* styling circular images using class */
 .circular_image {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    width: 125px;
-    height: 125px;
+    margin-right: 25px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     overflow: hidden;
     background-color: blue;
