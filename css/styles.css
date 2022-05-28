@@ -15,6 +15,14 @@ body {
     background-color: #eaf6f6;
 }
 /* styling horizontal row */
+.horizontalrow1 {
+    border-style: none;
+        border-top-style:ridge;
+        border-color: red;
+        border-width: auto;
+        width: auto;
+
+}
 hr {
     border-style: none;
     border-top-style: dotted;
@@ -25,6 +33,10 @@ hr {
 /* styling heading elements */
 h1 {
     color: #66bfbf;
+ /* Styling navbar elements */
+    #navbar {
+
+    }
 }
 h3 {
     color: #66bfbf;
