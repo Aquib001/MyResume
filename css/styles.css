@@ -14,6 +14,9 @@
 body {
     background-color: #eaf6f6;
 }
+.contactmepage {
+    text-align: center;
+}
 /* styling horizontal row */
 .horizontalrow1 {
     border-style: none;
@@ -21,7 +24,8 @@ body {
         border-color: red;
         border-width: auto;
         width: auto;
-
+        margin: 0;
+        padding: 0;
 }
 hr {
     border-style: none;
@@ -33,11 +37,58 @@ hr {
 /* styling heading elements */
 h1 {
     color: #66bfbf;
+}
+        h3 {
+            color: #66bfbf;
+        }
  /* Styling navbar elements */
-    #navbar {
-
+  
+    .home   {
+        float: left;
+        margin-left: 250px;
+            margin-top: 20px;
+            margin-right: 250px;
+            width: 140px;
+            font-size: 150%;
+            text-align: left;
     }
-}
-h3 {
-    color: #66bfbf;
-}
+            .home:hover,
+            .home:active {
+                font-size: 200%;
+            }            
+                span:hover {
+                display: block;
+                        }
+    .hobbies {
+            float: left;
+            margin-left: 40px;
+            margin-top: 20px;
+            margin-right: 250px;
+            width: 140px;
+            font-size: 150%;
+            text-align: center;
+    }
+            .hobbies:hover,
+            .hobbies:active {
+                font-size: 200%;
+                }
+                span:hover {
+                 display: block;
+                }
+    .contact {
+            float: left;
+            margin-left: 50px;
+            margin-top: 20px;
+            margin-right: 250px;
+            width: 140px;
+            font-size: 150%;
+            text-align: right;
+    }
+            .contact:hover,
+            .contact:active {
+                font-size: 200%;
+                display: block;
+                }
+                /* span:hover {
+                    display: block;
+                } */
