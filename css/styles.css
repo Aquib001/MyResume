@@ -1,94 +1,114 @@
+/* styling top section on homepage */
+#top {
+  background-color: #222831;
+  color: white;
+}
+
 /* styling circular images using class */
 .circular_image {
-    float: left;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 25px;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: blue;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 25px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
 }
 /* styling body */
 body {
-    background-color: #eaf6f6;
+  background-color: #eeeeee;
 }
 .contactmepage {
-    text-align: center;
+  text-align: center;
 }
 /* styling horizontal row */
 .horizontalrow1 {
-    border-style: none;
-        border-top-style:ridge;
-        border-color: red;
-        border-width: auto;
-        width: auto;
-        margin: 0;
-        padding: 0;
+  border-style: none;
+  border-top-style: ridge;
+  border-color: red;
+  border-width: 5px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
+.normalhorizontalrow {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
 }
 /* styling heading elements */
 h1 {
-    color: #66bfbf;
+  color: #66bfbf;
 }
-        h3 {
-            color: #66bfbf;
-        }
- /* Styling navbar elements */
-  
-    .home   {
-        float: left;
-        margin-left: 250px;
-            margin-top: 20px;
-            margin-right: 250px;
-            width: 140px;
-            font-size: 150%;
-            text-align: left;
-    }
-            .home:hover,
-            .home:active {
-                font-size: 200%;
-            }            
-                span:hover {
-                display: block;
-                        }
-    .hobbies {
-            float: left;
-            margin-left: 40px;
-            margin-top: 20px;
-            margin-right: 250px;
-            width: 140px;
-            font-size: 150%;
-            text-align: center;
-    }
-            .hobbies:hover,
-            .hobbies:active {
-                font-size: 200%;
-                }
-                span:hover {
-                 display: block;
-                }
-    .contact {
-            float: left;
-            margin-left: 50px;
-            margin-top: 20px;
-            margin-right: 250px;
-            width: 140px;
-            font-size: 150%;
-            text-align: right;
-    }
-            .contact:hover,
-            .contact:active {
-                font-size: 200%;
-                display: block;
-                }
-                /* span:hover {
+h3 {
+  color: #66bfbf;
+}
+/* Styling navbar elements */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00adb5;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+.home {
+  /* float: left; */
+  /* margin-left: 250px; */
+  /* margin-top: 20px; */
+  /* margin-right: 250px; */
+  /* margin-left: 17%; */
+  /* margin-right: 17%; */
+  width: 100px;
+  font-size: 150%;
+  /* text-align: left; */
+}
+.home:hover,
+.home:active {
+  font-size: 200%;
+}
+span:hover {
+  display: block;
+}
+.hobbies {
+  /* float: left; */
+  /* margin-left: 40px; */
+  /* margin-top: 20px; */
+  /* margin-right: 250px; */
+  /* margin-left: 17%; */
+  /* margin-right: 17%; */
+  width: 100px;
+  font-size: 150%;
+  /* text-align: center; */
+}
+.hobbies:hover,
+.hobbies:active {
+  font-size: 200%;
+}
+span:hover {
+  display: block;
+}
+.contact {
+  /* float: left; */
+  /* margin-left: 50px; */
+  /* margin-top: 20px; */
+  /* margin-right: 310px; */
+  /* margin-left: 17%; */
+  /* margin-right: 17%; */
+  width: 100px;
+  font-size: 150%;
+  /* text-align: right; */
+}
+.contact:hover,
+.contact:active {
+  font-size: 200%;
+  display: block;
+}
+/* span:hover {
                     display: block;
                 } */
