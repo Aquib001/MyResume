@@ -1,3 +1,104 @@
+/* navbar hamburger menu styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  color: #222;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>START nav bar designing*/
+nav {
+  padding: 20px;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  align-self: center;
+  font-family: "Passion One", "sans-serif";
+  font-size: 1.8rem;
+  color: white;
+  margin: 0;
+  z-index: 3;
+}
+span {
+  color: #e63946;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.nav-menu {
+  /*nav menu hidden for mobile*/
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  list-style: none;
+  top: -1000%;
+  left: 0;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  background-color: #222;
+  z-index: 2;
+  transition: all 0.35s ease-in-out;
+}
+.nav-menu.active {
+  top: 70px;
+}
+.nav-item {
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+.nav-menu a {
+  color: #fff;
+  font-weight: 550;
+  font-size: 1.2rem;
+}
+.nav-menu a:hover {
+  color: #e63946;
+}
+.hamburger {
+  /*hamburger menu*/
+  cursor: pointer;
+  z-index: 3;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FINISH nav bar designing*/
+h1,
+p {
+  text-align: center;
+  margin-top: 100px;
+}
+
 /* styling top section on homepage */
 #top {
   background-color: #222831;
