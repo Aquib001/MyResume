@@ -24,7 +24,8 @@ span:hover {
 h1,
 p {
   text-align: center;
-  margin-top: 100px;
+  padding-top: 50px;
+  /* margin-top: 100px; */
 }
 /* styling body */
 body {
@@ -33,15 +34,22 @@ body {
 /* styling heading elements */
 h1 {
   color: #66bfbf;
+  font-size: 60px;
 }
 h3 {
   color: #66bfbf;
+  font-size: 20px;
 }
 span:hover {
   display: block;
 }
 /****************CLASS SELECTORS*****************/
-
+.desc {
+  font-size: 25px;
+}
+.desc1 {
+  font-size: 20px;
+}
 /****************ID SELECTORS*****************/
 
 /* navbar hamburger menu styling */
@@ -127,21 +135,19 @@ nav {
 #top {
   background-color: #222831;
   color: white;
-}
+  text-align: center;
+  }
 
 /* styling circular images using class */
 .circular_image {
-  float: left;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-right: 25px;
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  overflow: hidden;
+  margin-right:auto;
+  margin-left: auto;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
   background-color: blue;
 }
-
 .contactmepage {
   text-align: center;
 }
