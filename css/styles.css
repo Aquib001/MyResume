@@ -1,4 +1,4 @@
-/* navbar hamburger menu styling */
+/****************TAG SELECTORS*****************/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,6 +13,39 @@ body {
   background-color: white;
   color: #222;
 }
+span {
+  color: #e63946;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+span:hover {
+  display: block;
+}
+h1,
+p {
+  text-align: center;
+  margin-top: 100px;
+}
+/* styling body */
+body {
+  background-color: #eeeeee;
+}
+/* styling heading elements */
+h1 {
+  color: #66bfbf;
+}
+h3 {
+  color: #66bfbf;
+}
+span:hover {
+  display: block;
+}
+/****************CLASS SELECTORS*****************/
+
+/****************ID SELECTORS*****************/
+
+/* navbar hamburger menu styling */
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>START nav bar designing*/
 nav {
   padding: 20px;
@@ -30,11 +63,7 @@ nav {
   margin: 0;
   z-index: 3;
 }
-span {
-  color: #e63946;
-  letter-spacing: 3px;
-  font-weight: 600;
-}
+
 .nav-menu {
   /*nav menu hidden for mobile*/
   display: flex;
@@ -93,11 +122,6 @@ span {
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FINISH nav bar designing*/
-h1,
-p {
-  text-align: center;
-  margin-top: 100px;
-}
 
 /* styling top section on homepage */
 #top {
@@ -117,10 +141,7 @@ p {
   overflow: hidden;
   background-color: blue;
 }
-/* styling body */
-body {
-  background-color: #eeeeee;
-}
+
 .contactmepage {
   text-align: center;
 }
@@ -141,13 +162,7 @@ body {
   border-width: 5px;
   width: 5%;
 }
-/* styling heading elements */
-h1 {
-  color: #66bfbf;
-}
-h3 {
-  color: #66bfbf;
-}
+
 /* Styling navbar elements */
 .navbar {
   display: flex;
@@ -173,9 +188,7 @@ h3 {
 .home:active {
   font-size: 200%;
 }
-span:hover {
-  display: block;
-}
+
 .hobbies {
   /* float: left; */
   /* margin-left: 40px; */
@@ -191,9 +204,7 @@ span:hover {
 .hobbies:active {
   font-size: 200%;
 }
-span:hover {
-  display: block;
-}
+
 .contact {
   /* float: left; */
   /* margin-left: 50px; */
