@@ -12,6 +12,13 @@
   <title>Aquib's Resume</title>
   <link rel="stylesheet" href="./css/styles.css" />
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="homepage">
@@ -32,15 +39,15 @@
   <hr class="horizontalrow1" />
   <!-- created a head section by displaying a picture and text description side by side -->
   <div id="top">
-          <h1>Mohammad Aquib</h1>
-          <img class="circular_image" src="./images/myphoto.jpg" alt="My profile picture" />
-          <p class="desc"><em>I am a BCA graduate.</em></p>
-          <p class="desc1">
-            I'm a web designer / developer based in Uttar Pradesh, India. I have
-            a passion for web design and love to create for web and mobile
-            devices..
-          </p>
-      </div>
+    <h1>Mohammad Aquib</h1>
+    <img class="circular_image" src="./images/myphoto.jpg" alt="My profile picture" />
+    <p class="desc"><em>I am a BCA graduate.</em></p>
+    <p class="desc1">
+      I'm a web designer / developer based in Uttar Pradesh, India. I have
+      a passion for web design and love to create for web and mobile
+      devices..
+    </p>
+  </div>
   </div>
   <hr class="horizontalrow1" />
   <!-- static navbar using HTML (deprecated)-->
@@ -51,59 +58,60 @@
   </div> -->
 
   <!-- details section -->
-  <div style="display: flex; flex: content; justify-content:center;">
-    <h3 style="margin-right: 35px;">Educational Background</h3>
-    <ul>
-      <li>Bachelors in Computer Applications</li>
-      <li>Class 12 U.P. Board with 68%</li>
-      <li>Class 10 U.P. Board with 73%</li>
-    </ul>
+  <div class="details">
+    <div style="display: flex; flex: content; justify-content:center;">
+      <h3 style="margin-right: 35px;">Educational Background</h3>
+      <ul>
+        <li>Bachelors in Computer Applications</li>
+        <li>Class 12 U.P. Board with 68%</li>
+        <li>Class 10 U.P. Board with 73%</li>
+      </ul>
+    </div>
+    <hr class="horizontalrow1" />
+    <!--     add multiple tables side by side by adding the next table content in the last table row -->
+    <div id="skill" , style="display: flex; flex: content; justify-content:center;">
+      <h3>Skills</h3>
+      <table>
+        <tr>
+          <td>
+            <table>
+              <tr class="skill-item">
+                <td>HTML</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr class="skill-item">
+                <td>CSS</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr class="skill-item">
+                <td>JavaScript</td>
+                <td>⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table cellspacing="10">
+              <tr class="skill-item">
+                <td>Python</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr class="skill-item">
+                <td>C language</td>
+                <td>⭐⭐</td>
+              </tr>
+              <tr class="skill-item">
+                <td>Photography</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- <hr /> -->
+    </div>
+    <hr class="horizontalrow1" />
   </div>
-  <hr class="horizontalrow1" />
-  <!--     add multiple tables side by side by adding the next table content in the last table row -->
-  <div id="skill" , style="display: flex; flex: content; justify-content:center;">
-    <h3>Skills</h3>
-    <table>
-      <tr>
-        <td>
-          <table>
-            <tr class="skill-item">
-              <td>HTML</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr class="skill-item">
-              <td>CSS</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr class="skill-item">
-              <td>JavaScript</td>
-              <td>⭐⭐</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table cellspacing="10">
-            <tr class="skill-item">
-              <td>Python</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr class="skill-item">
-              <td>C language</td>
-              <td>⭐⭐</td>
-            </tr>
-            <tr class="skill-item">
-              <td>Photography</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <!-- <hr /> -->
-  </div>
-  <hr class="horizontalrow1" />
-
-<!-- adding javascript -->
+  <!-- adding javascript -->
   <script src="index.js"></script>
 </body>
 
