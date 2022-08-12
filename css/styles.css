@@ -11,7 +11,7 @@ a {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Playfair Display', serif;
   background-color: white;
   color: #222;
 }
@@ -64,6 +64,21 @@ span:hover {
 
 .details {
   font-family: 'Playfair Display', serif;
+}
+
+/* Hobbies page styling using class */
+.hobbies-list {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.hobbies-image {
+  margin: 50px 50px 10px;
+  padding: 50px;
+  border-radius: 25%;
+  width: 300px;
+  height: 300px;
 }
 
 /****************ID SELECTORS*****************/
