@@ -82,6 +82,13 @@ span:hover {
   height: 300px;
 }
 
+.contactme-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 25%;
+  margin-top: 80px;
+}
+
 /****************ID SELECTORS*****************/
 
 /* navbar hamburger menu styling */
